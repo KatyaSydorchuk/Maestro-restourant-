@@ -1,0 +1,357 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+/* Header */
+#header-nav {
+    background-color: #f6b319;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #a82424;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.img-item:hover{
+    width: 53px;
+}
+#nav-list a{
+    color: #951c45;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav-list a:hover {
+    color: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 1.3em;
+}
+
+.container button.navbar-toggler, .container button.navbar-toggler-icon{
+    border: 2px solid #61122f;
+}
+
+
+/* Header */
+
+/* Call us  */
+
+#call-btn {
+    border: 1px solid #3f0c1f;
+    border-radius: 7px;
+    background-color: #f6b319;
+    text-align: center;
+    padding: 5px;
+    margin: 15px auto 5px;
+    max-width: 80%;
+    height: auto;
+}
+
+.btn {
+    font-size: 1.3em;
+}
+
+/* Main Content */
+.main-img {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 50px #3f0c1f;
+    margin-top: 20px;
+    border: 2px solid #3f0c1f;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+    background: url('../img/menu-tile.jpg') no-repeat;
+    background-position: center; 
+}
+#specials-tile {
+    background: url('../img/specials-tile.jpg') no-repeat;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/* Main Content */
+/* Menu categories*/ 
+
+.category-tile {
+    position: relative; 
+    border: 1px solid #3f0c1f; 
+    overflow: hidden; 
+    width: 150px; 
+    height: 150px; 
+    margin: 0 auto 15px; 
+   
+}
+
+.category-tile span {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 1.3em; 
+    text-transform: uppercase; 
+    background-color: #000; 
+    opacity: 0.8; 
+    color: #fff; 
+}
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc; 
+}
+
+#menu-categories-title {
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+}
+/* End Menu categories*/ 
+
+/* Single  */
+#single-categories-title {
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+}
+.single-item-tile {
+    margin-bottom: 25px; 
+}
+
+.single-item-tile hr {
+    width: 80%; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+.single-item-tile .single-item-price {
+    font-size:  1.3em; 
+    text-align: right; 
+    margin-top: -15px; 
+    margin-right: -15px; 
+}
+.single-item-tile .single-item-price span {
+    font-size: .9em; 
+
+}
+
+.single-item-photo {
+    position: relative; 
+    border: 2px solid #3f0c1f; 
+    overflow: hidden; 
+    padding: 0; 
+    margin-right: -15px; 
+    margin-left: auto; 
+    margin-bottom: 20px; 
+    max-width: 250px; 
+}
+
+.single-item-photo div {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    width: 80px; 
+    background-color: #557c3e; 
+    text-align: center; 
+}
+
+.single-item-disc {
+    padding-right: 30px; 
+}
+
+h3.single-item-title {
+    margin: 0 0 10px; 
+}
+
+.single-item-det {
+    font-size: 0.9em; 
+    font-style: italic; 
+}
+/* End single */
+
+
+/* Footer */
+.card-footer {
+    margin-top: 30px;
+}
+
+.card-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #address, #contacts {
+    line-height: 2.5;
+}
+#hours > span, #address > span, #contacts > span {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#contacts a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Media  */
+/* Extra Large  */
+@media (min-width: 1200px) {
+    .main-img {
+        background: url("../img/Maestro-inside\ _\ х\ large.jpg")  no-repeat;
+        height: 753px;
+    }
+}
+/* Large*/
+@media (min-width: 992px) and (max-width:1199px) {
+    .main-img {
+        background: url("../img/Maestro-inside\ _\ \ large.jpg")  no-repeat;
+        height: 707px;
+    }
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+   /* Header */
+    .logo {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+    } /* Logo-img */
+    .navbar-brand h1{
+        font-size: 1.5em;
+    } 
+    #nav-list li{
+      margin-top: 10px;
+    }
+ /* Header */
+ .main-img {
+    background: url("../img/Maestro-inside\ _\ \ medium.jpg")  no-repeat;
+    height: 587px;
+}
+
+}
+
+/* Small */
+@media (min-width:576px) and (max-width:767px) {
+   /* Header */
+    .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    } /* Logo-img */
+    .navbar-brand h1{
+        font-size: 1.3em;
+    }
+    #nav-list li{
+        margin-top: 15px;
+      }
+    .img-item {
+        width: 40px;
+        height: 40px;
+    }
+    .img-item:hover{
+        width: 43px;
+        height: 43px;
+    }
+    /* Header */
+    .main-img {
+        background: url("../img/Maestro-inside\ _\ \ small.jpg")  no-repeat;
+        height: 457px;
+       
+    }
+} 
+
+/* Extra small */
+@media (max-width: 575px){
+    /* Header */
+    #nav-list span{
+        display: none;
+    }
+    #nav-list li{
+        margin-top: 10px;
+    }
+    .main-img {
+        padding: 0;
+    }
+  /* Header */
+
+   /* Single categorieas */
+.single-item-photo {
+    margin-right: auto; 
+}
+
+/* Footer */
+    .card-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .card-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .card-footer section hr {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .single-item-tile .single-item-price {
+        text-align: center; 
+    }
+    .single-item-disc {
+        text-align: center; 
+    }
+
+    .single-item-det {
+        padding: 5px 10px; 
+    }
+}
+
+/* Super small*/
+
+@media (max-width: 360px) {
+    .col-xxs-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    
+.navbar-brand h1 {
+    font-size: 1.3em; 
+}
+}
